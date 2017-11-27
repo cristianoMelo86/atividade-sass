@@ -1,0 +1,22 @@
+{
+  "name": "cristiano-melo",
+  "version": "1.0.0",
+  "description": "atividades de sass - certificação bootstrap",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "sass",
+    "js",
+    "bootstrap",
+    "sublime-text"
+  ],
+  "author": "Cristiano Melo",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-notify": "^3.0.0",
+    "gulp-sass": "^3.1.0"
+  }
+}
