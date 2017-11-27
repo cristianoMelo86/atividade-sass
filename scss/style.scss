@@ -1,0 +1,9 @@
+@import "nav/nav.scss";
+
+nav{
+	@include border(black, 3px, double);
+
+
+}
+
+
