@@ -1,9 +1,45 @@
 @import "nav/nav.scss";
 
 nav{
-	@include border(black, 3px, double);
 
+	@include border();
+	@include bg();
+	width: 40%;
+	margin: 20px auto;
+	
+	ul{
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		list-style: none;
+	}
 
+	.nav-brand{
+
+		a{
+			@include cor-txt();
+			width: 30%;
+			font-size: 30px;
+			font-weight: bold;
+		}
+
+	}
+
+	.nav-item{
+		display: flex;
+		justify-content: space-between;
+		padding: 0 20px;
+		width: 50%;
+		
+		a{
+			@include cor-txt();
+			font-weight: bold;
+		}
+	}
 }
+
+
+
+
 
 

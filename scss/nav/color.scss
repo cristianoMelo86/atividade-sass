@@ -1,5 +1,9 @@
-@mixin cor-txt($color: #341931){
+@mixin cor-txt($color: #341931, $font-size: 18px ){
 	color: $color;
+	font-size: $font-size;
 
-
+	&:hover{
+		color: #fff;
+		background-color: #341931;
+	}
 }
